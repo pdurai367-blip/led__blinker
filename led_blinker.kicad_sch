@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "03ddc61f-e8ed-48e5-bb82-67b4f1c3ab3d")
+	(paper "A4")
+	(title_block
+		(title "555 LED Blinker")
+		(rev "1.0")
+		(company "Febino Solutions")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
