@@ -1341,7 +1341,7 @@
 		(uuid "1a242cd5-9953-4323-8c64-2a5f240ef281")
 	)
 	(junction
-		(at 195.58 76.2)
+		(at 195.58 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3029525d-b288-46ae-9f72-86d43b30a380")
@@ -1371,12 +1371,6 @@
 		(uuid "74c54fad-8576-465e-a25a-79a8f9fad5af")
 	)
 	(junction
-		(at 170.18 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b4318eb-9892-424d-8323-1d0c48aff2ab")
-	)
-	(junction
 		(at 175.26 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1387,6 +1381,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c26669c7-47ab-4727-ab19-3d01f208d186")
+	)
+	(junction
+		(at 153.67 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdaeafa7-dabf-48f4-a0e5-35494dab2ddd")
 	)
 	(junction
 		(at 143.51 102.87)
@@ -1408,7 +1408,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 134.62) (xy 170.18 142.24)
+			(xy 153.67 134.62) (xy 153.67 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1538,16 +1538,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 134.62) (xy 170.18 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7228713d-3bfe-43c6-9770-90e9d5ec971d")
-	)
-	(wire
-		(pts
 			(xy 109.22 134.62) (xy 127 134.62)
 		)
 		(stroke
@@ -1555,16 +1545,6 @@
 			(type default)
 		)
 		(uuid "76dfa34c-2565-458e-906d-cbed9075f939")
-	)
-	(wire
-		(pts
-			(xy 170.18 134.62) (xy 185.42 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d7f1a8-5448-4dfd-b52d-5bc73415a8c1")
 	)
 	(wire
 		(pts
@@ -1585,6 +1565,16 @@
 			(type default)
 		)
 		(uuid "8017135d-d6ac-41e3-988f-951510d57d76")
+	)
+	(wire
+		(pts
+			(xy 153.67 138.43) (xy 153.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7e092c-abb9-4515-9117-08b08a24a66b")
 	)
 	(wire
 		(pts
@@ -1645,6 +1635,16 @@
 			(type default)
 		)
 		(uuid "bae462bd-6c7e-4233-93ed-63281bc9bf50")
+	)
+	(wire
+		(pts
+			(xy 195.58 67.31) (xy 195.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7175175-cac1-4649-be18-e96997e8de02")
 	)
 	(wire
 		(pts
@@ -1718,6 +1718,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 134.62) (xy 185.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9547fbe-5351-4ea5-b324-6b073ef2b4c8")
+	)
+	(wire
+		(pts
 			(xy 127 95.25) (xy 127 91.44)
 		)
 		(stroke
@@ -1758,7 +1768,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 195.58 76.2 270)
+		(at 195.58 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1769,7 +1779,7 @@
 		(fields_autoplaced yes)
 		(uuid "08602cdc-1732-4f3e-bd66-30e3098e4ccc")
 		(property "Reference" "#FLG01"
-			(at 197.485 76.2 0)
+			(at 197.485 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1780,7 +1790,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 199.39 76.1999 90)
+			(at 199.39 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1791,7 +1801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 76.2 0)
+			(at 195.58 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1802,7 +1812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 76.2 0)
+			(at 195.58 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1813,7 +1823,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 195.58 76.2 0)
+			(at 195.58 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1837,7 +1847,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 142.24 0)
+		(at 153.67 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1848,7 +1858,7 @@
 		(fields_autoplaced yes)
 		(uuid "10c2ab95-e62b-43d0-bc0c-f28bc8a3f3c7")
 		(property "Reference" "#PWR02"
-			(at 170.18 148.59 0)
+			(at 153.67 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1859,7 +1869,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 147.32 0)
+			(at 153.67 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1869,7 +1879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 142.24 0)
+			(at 153.67 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1880,7 +1890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 142.24 0)
+			(at 153.67 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1891,7 +1901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 142.24 0)
+			(at 153.67 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1947,7 +1957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 125.222 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -2029,7 +2039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 85.09 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2111,7 +2121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 126.0348 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2193,7 +2203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 184.4548 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2275,7 +2285,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 175.26 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2336,7 +2346,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 195.58 76.2 0)
+		(at 195.58 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2347,7 +2357,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d570536-eee3-4bc3-8638-bccc08fcdbf0")
 		(property "Reference" "#PWR01"
-			(at 195.58 80.01 0)
+			(at 195.58 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2358,7 +2368,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 195.58 71.12 0)
+			(at 195.58 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2368,7 +2378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 76.2 0)
+			(at 195.58 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2379,7 +2389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 76.2 0)
+			(at 195.58 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2390,7 +2400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 195.58 76.2 0)
+			(at 195.58 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2407,6 +2417,85 @@
 			(project "led_blinker"
 				(path "/03ddc61f-e8ed-48e5-bb82-67b4f1c3ab3d"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 153.67 138.43 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9961763a-73be-4ae3-a752-900a5437e509")
+		(property "Reference" "#FLG02"
+			(at 155.575 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 157.48 138.4299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 153.67 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d19978fc-7be0-4cb3-a7f9-dea9b66e49b5")
+		)
+		(instances
+			(project "led_blinker"
+				(path "/03ddc61f-e8ed-48e5-bb82-67b4f1c3ab3d"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2446,7 +2535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 125.222 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -2526,7 +2615,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 171.45 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -2608,7 +2697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 110.1852 104.14 0)
 			(hide yes)
 			(show_name no)
