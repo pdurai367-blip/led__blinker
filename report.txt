@@ -1,124 +1,12 @@
 Info: Processing symbol 'C1:Capacitor_THT:CP_Radial_D5.0mm_P2.00mm'.
-Info: Processing symbol 'J1:TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal'.
 Info: Processing symbol 'C2:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm'.
 Info: Processing symbol 'C3:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm'.
 Info: Processing symbol 'D1:LED_THT:LED_D5.0mm'.
+Info: Processing symbol 'J1:TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal'.
 Info: Processing symbol 'R1:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
 Info: Processing symbol 'R2:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
 Info: Processing symbol 'R3:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal'.
 Info: Processing symbol 'U1:Package_DIP:DIP-8_W7.62mm'.
-Updated C1 fields.
-Updated C1 sheetname to '/'.
-Updated C1 sheetfile to 'led_blinker.kicad_sch'.
-Updated C1 footprint filters to 'C_*'.
-Add net +9V.
-Connected C1 pin 1 to +9V.
-Add net GND.
-Connected C1 pin 2 to GND.
-Updated C1 unit metadata.
-Added C2 (footprint 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm').
-Changed REF** reference designator to C2.
-Changed C2 value from C_Disc_D5.0mm_W2.5mm_P5.00mm to 10uF.
-Updated C2 symbol association from  to /54623871-ab73-465a-bd66-e100e9e99808.
-Updated C2 fields.
-Updated C2 sheetname to '/'.
-Updated C2 sheetfile to 'led_blinker.kicad_sch'.
-Updated C2 footprint filters to 'C_*'.
-Add net Net-(U1-THRES).
-Connected C2 pin 2 to Net-(U1-THRES).
-Connected C2 pin 1 to GND.
-Updated C2 unit metadata.
-Added C3 (footprint 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm').
-Changed REF** reference designator to C3.
-Changed C3 value from C_Disc_D5.0mm_W2.5mm_P5.00mm to 10nF.
-Updated C3 symbol association from  to /5f5c9faf-74b7-4468-9aa2-4071d0528df7.
-Updated C3 fields.
-Updated C3 sheetname to '/'.
-Updated C3 sheetfile to 'led_blinker.kicad_sch'.
-Updated C3 footprint filters to 'C_*'.
-Connected C3 pin 1 to GND.
-Add net Net-(U1-CONT).
-Connected C3 pin 2 to Net-(U1-CONT).
-Updated C3 unit metadata.
-Added D1 (footprint 'LED_THT:LED_D5.0mm').
-Changed REF** reference designator to D1.
-Changed D1 value from LED_D5.0mm to LED.
-Updated D1 symbol association from  to /805a6748-1771-481b-92bb-d0ea54469c9a.
-Updated D1 fields.
-Updated D1 sheetname to '/'.
-Updated D1 sheetfile to 'led_blinker.kicad_sch'.
-Updated D1 footprint filters to 'LED* LED_SMD:* LED_THT:*'.
-Connected D1 pin 1 to GND.
-Add net Net-(D1-A).
-Connected D1 pin 2 to Net-(D1-A).
-Updated D1 unit metadata.
-Added J1 (footprint 'TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal').
-Changed REF** reference designator to J1.
-Changed J1 value from TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal to 9v_IN.
-Updated J1 symbol association from  to /4de49a79-c298-4620-aea0-480c654b2730.
-Updated J1 fields.
-Updated J1 sheetname to '/'.
-Updated J1 sheetfile to 'led_blinker.kicad_sch'.
-Updated J1 footprint filters to 'TerminalBlock*:*'.
-Connected J1 pin 1 to +9V.
-Connected J1 pin 2 to GND.
-Updated J1 unit metadata.
-Added C1 (footprint 'Capacitor_THT:CP_Radial_D5.0mm_P2.00mm').
-Added R1 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal').
-Changed REF** reference designator to R1.
-Changed R1 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal to 1k.
-Updated R1 symbol association from  to /b16f9880-1068-4fd0-b116-64189746efd5.
-Updated R1 fields.
-Updated R1 sheetname to '/'.
-Updated R1 sheetfile to 'led_blinker.kicad_sch'.
-Updated R1 footprint filters to 'R_*'.
-Connected R1 pin 1 to +9V.
-Add net Net-(U1-DISCH).
-Connected R1 pin 2 to Net-(U1-DISCH).
-Updated R1 unit metadata.
-Changed REF** reference designator to C1.
-Added R2 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal').
-Changed REF** reference designator to R2.
-Changed R2 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal to 68k.
-Updated R2 symbol association from  to /3d86ccd7-3f9c-47aa-8ed4-a7945e9630ec.
-Updated R2 fields.
-Updated R2 sheetname to '/'.
-Updated R2 sheetfile to 'led_blinker.kicad_sch'.
-Updated R2 footprint filters to 'R_*'.
-Connected R2 pin 2 to Net-(U1-THRES).
-Connected R2 pin 1 to Net-(U1-DISCH).
-Updated R2 unit metadata.
-Changed C1 value from CP_Radial_D5.0mm_P2.00mm to 100nF.
-Added R3 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal').
-Changed REF** reference designator to R3.
-Changed R3 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal to 470.
-Updated R3 symbol association from  to /cac5ae54-eb5f-4eb8-b1db-2161b2227174.
-Updated R3 fields.
-Updated R3 sheetname to '/'.
-Updated R3 sheetfile to 'led_blinker.kicad_sch'.
-Updated R3 footprint filters to 'R_*'.
-Connected R3 pin 2 to Net-(D1-A).
-Add net Net-(U1-OUT).
-Connected R3 pin 1 to Net-(U1-OUT).
-Updated R3 unit metadata.
-Updated C1 symbol association from  to /d739fafe-1b31-468e-af46-9e23a1113786.
-Added U1 (footprint 'Package_DIP:DIP-8_W7.62mm').
-Changed REF** reference designator to U1.
-Changed U1 value from DIP-8_W7.62mm to out.
-Updated U1 symbol association from  to /f23750a6-043c-49c6-a0bb-4a60478f9d69.
-Updated U1 fields.
-Updated U1 sheetname to '/'.
-Updated U1 sheetfile to 'led_blinker.kicad_sch'.
-Updated U1 footprint filters to 'DIP*W7.62mm*'.
-Connected U1 pin 8 to +9V.
-Connected U1 pin 4 to +9V.
-Connected U1 pin 2 to Net-(U1-THRES).
-Connected U1 pin 5 to Net-(U1-CONT).
-Connected U1 pin 7 to Net-(U1-DISCH).
-Connected U1 pin 6 to Net-(U1-THRES).
-Connected U1 pin 3 to Net-(U1-OUT).
-Connected U1 pin 1 to GND.
-Updated U1 unit metadata.
 
 
 Info: Total warnings: 0, errors: 0.
