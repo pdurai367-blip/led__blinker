@@ -1508,7 +1508,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 76.2) (xy 109.22 96.52)
+			(xy 109.22 76.2) (xy 109.22 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1588,7 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 104.14) (xy 109.22 134.62)
+			(xy 109.22 106.68) (xy 109.22 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2665,7 +2665,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 100.33 0)
+		(at 109.22 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2676,17 +2676,6 @@
 		(fields_autoplaced yes)
 		(uuid "d739fafe-1b31-468e-af46-9e23a1113786")
 		(property "Reference" "C1"
-			(at 113.03 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
 			(at 113.03 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2697,8 +2686,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "100nF"
+			(at 113.03 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 110.1852 104.14 0)
+			(at 110.1852 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2709,7 +2709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 100.33 0)
+			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2720,7 +2720,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 100.33 0)
+			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
