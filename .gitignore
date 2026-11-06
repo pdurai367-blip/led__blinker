@@ -1,0 +1,6 @@
+# Backup and temporary files
+*-backups/
+*.bak
+*.kicad_prl
+*-save.*
+_autosave-*
